@@ -1,12 +1,28 @@
-<!DOCTYPE html><html lang="en"><head>
+<!doctype html>
+<html lang="en">
+
+<head>
   <meta charset="utf-8">
-  <title>Test</title>
+  <title>EBC</title>
   <base href="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-<link rel="stylesheet" href="styles.ef46db3751d8e999.css"></head>
-<body>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- <script src="https://kit.fontawesome.com/b99e675b6e.js"></script> -->
+<link rel="stylesheet" href="styles.css"></head>
+<body class="mat-typography">
   <app-root></app-root>
-<script src="runtime.229fdb8c1038f96f.js" type="module"></script><script src="polyfills.d128fd307d8bd83e.js" type="module"></script><script src="main.e19def91ba8c9f48.js" type="module"></script>
+  <script>
+    window.paceOptions = {
+      document: true, // disabled
+      eventLag: true,
+      restartOnPushState: true,
+      restartOnRequestAfter: true,
+      ajax: {
+        trackMethods: ["POST", "GET", "PUT", "DELETE", "PATCH"],
+      },
+    };
+  </script>
+<script src="runtime.js" type="module"></script><script src="polyfills.js" type="module"></script><script src="scripts.js" defer></script><script src="vendor.js" type="module"></script><script src="main.js" type="module"></script></body>
 
-</body></html>
+</html>
